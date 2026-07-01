@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONYX</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Fond animé -->
+    <canvas id="bg"></canvas>
+
+    <!-- Barre de navigation -->
+    <header>
+        <nav>
+            <div class="logo">ONYX</div>
+
+            <ul class="menu">
+                <li><a href="#home">Accueil</a></li>
+                <li><a href="#features">Fonctionnalités</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn">
+                ☰
+            </button>
+        </nav>
+    </header>
+
+    <!-- Accueil -->
+    <section class="hero" id="home">
+
+        <h1>Bienvenue sur <span>ONYX</span></h1>
+
+        <p>
+            Une plateforme moderne, élégante et interactive.
+        </p>
+
+        <div class="buttons">
+            <button id="discover">
+                Découvrir
+            </button>
+
+            <button id="learn">
+                En savoir plus
+            </button>
+        </div>
+
+    </section>
+
+    <!-- Fonctionnalités -->
+    <section class="features" id="features">
+
+        <h2>Fonctionnalités</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>Rapide</h3>
+                <p>
+                    Navigation fluide et animations modernes.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Sécurisé</h3>
+                <p>
+                    Conçu pour accueillir des fonctionnalités avancées.
+                </p>
+            </div>
+
+            <div class="card">
+                <h3>Responsive</h3>
+                <p>
+                    Compatible ordinateur, tablette et mobile.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- À propos -->
+    <section class="about" id="about">
+
+        <h2>À propos</h2>
+
+        <p>
+            ONYX est un projet destiné à devenir une plateforme moderne,
+            performante et agréable à utiliser.
+        </p>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+
+        <h2>Contact</h2>
+
+        <form>
+
+            <input
+                type="text"
+                placeholder="Votre nom"
+                required
+            >
+
+            <input
+                type="email"
+                placeholder="Votre email"
+                required
+            >
+
+            <textarea
+                placeholder="Votre message"
+                rows="5"
+                required
+            ></textarea>
+
+            <button type="submit">
+                Envoyer
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+
+        <p>
+            © 2026 ONYX - Tous droits réservés.
+        </p>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
